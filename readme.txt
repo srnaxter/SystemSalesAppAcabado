@@ -1,0 +1,7 @@
+Esta aplicacion es un sistema de ventas con un inicio de usuario en el cual tiene un menu en el que tienes que eligir unas opciones que te permiten hacer lo que indica el panel y al final de ello te imprime el ticket con todos los datos en .txt, a continuacion una breve explicacion de cada opcion:
+Lo primero es introducir el nombre de usuario que por ahora solo tiene uno que es mi nombre "juanjo" si lo introduces bien entras en el programa si no te saca del programa, cuando ya has introducido el nombre bien entras en el programa. Dentro del programa tenemos las opciones que son 6.
+La primera opcion es añadir producto y a continuacion sale el nombre del producto a introducir cuando lo introduces sale para poner el precio del articulo y cuando lo introduces ya esta añadido el producto.
+La segunda opcion es eliminar producto el cual te indica el indice de la posicion del producto, cuando lo indicas te borra el producto con el precio.
+La tercera opcion es mostrar lista de articulo lo cuando te muestra producto a producto el nombre y el precio del producto cuando ya esta todo correcto y el cliente esta satisfecha con la compra.
+Pasa a la quinto opcion que muestra los producto y el precio total de la compra y por ultimo la opcion 5.
+La quinta opcion te muestra el total del dinero y acontinuacion tiene que escribir el dinero con el cual el cliente te va a pagar cuando introduce el dinero muestra el dinero a devolver por el vendedor y acontinuacion imprime el ticket en .txt con todos lo productos comprado y el total de ello.

@@ -1,4 +1,4 @@
-package com.juanjo;
+package model;
 
 /**
  * Created by Juanjo on 19/04/2017.
@@ -7,9 +7,12 @@ public class Producto {
     private String nombre;
     private double precio;
 
+
+
     public Producto(String nombre, double precio) {
         this.nombre = nombre;
         this.precio = precio;
+
     }
 
     public String getNombre() {
@@ -26,5 +29,12 @@ public class Producto {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    @Override
+    public String toString() {
+        return "Producto: " +
+                "Nombre= " + nombre +
+                ", Precio= " + precio + "€ ";
     }
 }
