@@ -1,0 +1,2 @@
+Producto: Nombre= imac pro, Precio= 4500.0€ 
+ Total 4500.0€
