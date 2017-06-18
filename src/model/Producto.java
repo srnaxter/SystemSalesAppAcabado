@@ -3,15 +3,22 @@ package model;
 /**
  * Created by Juanjo on 19/04/2017.
  */
-public class Producto {
+
+import java.util.*;
+import java.util.Comparator;
+
+public class Producto implements Comparable<Producto>,Comparator<Producto> {
     private String nombre;
     private double precio;
 
-
+    public Producto() {
+        this.nombre="Bolsa";
+        this.precio=0.05;
+    }
 
     public Producto(String nombre, double precio) {
-        this.nombre = nombre;
-        this.precio = precio;
+        this.setNombre(nombre);
+        this.setPrecio(precio);
 
     }
 
@@ -36,5 +43,21 @@ public class Producto {
         return "Producto: " +
                 "Nombre= " + nombre +
                 ", Precio= " + precio + "€ ";
+    }
+
+    @Override
+    public int compareTo(Producto o) {
+        return 0;
+    }
+
+    @Override
+    public int compare(Producto o1, Producto o2) {
+        int res;
+
+        res=o1.getNombre().compareToIgnoreCase(o2.getNombre());
+        if (res !=0) {
+            return res;
+        }
+        return Double.compare(o1.getPrecio(),o2.getPrecio());
     }
 }

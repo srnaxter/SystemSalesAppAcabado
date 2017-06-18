@@ -20,6 +20,9 @@ public class Main
 
             System.out.println("Introduzca tu nombre:");
             checkUser = teclado.next();
+
+
+
             if (checkUser.equals(user))
             {
                 presentationMenu.start();
